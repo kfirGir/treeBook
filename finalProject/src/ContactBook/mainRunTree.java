@@ -12,6 +12,7 @@ public class mainRunTree {
 		FouraryTree<Contact> phoneBook= new FouraryTree<Contact>();
 		File contactFile=new File("ContactList.txt");
 		int countLine=0;
+		System.out.println("PRITJTJT");
 		try{
 			 //Create object of FileReader
 	          FileReader inputFile = new FileReader(contactFile);
